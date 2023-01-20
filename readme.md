@@ -7,5 +7,5 @@
 - JavaScript
 
 ### Projetos realizados:
-- Primeiro site responsivo (Projeto 1) :heavy_check_mark:
+- Primeiro site responsivo :heavy_check_mark:
 - Tela de Login antiga do Facebook :heavy_check_mark:
