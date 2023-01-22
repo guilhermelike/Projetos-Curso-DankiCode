@@ -11,3 +11,4 @@ respectivos donos.
 ### Projetos realizados:
 - Primeiro site responsivo :heavy_check_mark:
 - Tela de Login antiga do Facebook :heavy_check_mark:
+- Landing Page com um mosaico responsivo :heavy_check_mark:
