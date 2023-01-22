@@ -11,7 +11,7 @@ html,body{
 
 .container{
     width: 100%;
-    max-width: 1200px;
+    max-width: 1280px;
     margin: 0 auto;
 }
 
@@ -20,7 +20,7 @@ html,body{
 }
 
 header{
-    background-color: rgb(180, 180, 180);
+    background-color: rgb(220, 220, 220);
     padding: 10px 2% 40px 2%;
 
 }
@@ -134,6 +134,46 @@ section.chamada h2{
     font-weight: normal;
 }
 
+.icone-seta{
+    position: absolute;
+    left: 50%;
+    margin-top: -32px;
+    transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    width: 64px;
+    height: 64px;
+    background-size: 100% 100%;
+    background-image: url('../images/arrow.png');
+}
+
+.flex-mosaico{
+    display: flex;
+}
+
+.item-1-mosaico{
+    background-position: center;
+    background-size: cover;
+    width: 60%;
+}
+
+.item-2-mosaico{
+    background-color: rgb(210,210,210);
+    width: 40%;
+    padding: 90px 40px;
+}
+
+footer .container{
+    text-align: center;
+    padding: 20px 0;
+    background-color: rgb(220, 220, 220);
+    
+}
+
+footer img{
+    width: 120px;
+    
+}
+
 @media screen and (max-width:510px) {
 
     header{
@@ -160,5 +200,22 @@ section.chamada h2{
         max-width: 400px;
         position: static;
         display: inline-block;
+    }
+}
+
+@media screen and (max-width:768px){
+
+    .flex-mosaico{
+        display: block;
+    }
+
+    .item-1-mosaico{
+        padding-top: 80%;
+        width: 100%;
+    }
+
+    .item-2-mosaico{
+        text-align: justify;
+        width: 100%;
     }
 }
