@@ -12,3 +12,4 @@ respectivos donos.
 - Primeiro site responsivo :heavy_check_mark:
 - Tela de Login antiga do Facebook :heavy_check_mark:
 - Landing Page com um mosaico responsivo :heavy_check_mark:
+- Página Web com um mapa integrado :heavy_check_mark:
